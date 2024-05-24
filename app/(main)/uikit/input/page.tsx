@@ -28,6 +28,7 @@ import { Slider } from "primereact/slider";
 import { ToggleButton } from "primereact/togglebutton";
 import { useEffect, useState } from "react";
 import { CountryService } from "../../../../demo/service/CountryService";
+import 'primereact/resources/themes/bootstrap4-dark-blue/theme.css';
 
 interface InputValue {
     name: string;
